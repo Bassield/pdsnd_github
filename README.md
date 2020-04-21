@@ -44,10 +44,12 @@
 		earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
 ### Files
+	
+	* bikeshare.py - Code file saved under src folder
+	Data from Bike Share:
 	* chicago.csv
 	* new_york_city.csv
 	* washington.csv
-	* bikeshare.py
 
 ### Credits
 *[Code Academy] https://www.codecademy.com/learn/paths/analyze-data-with-python
