@@ -50,6 +50,13 @@
 	* chicago.csv
 	* new_york_city.csv
 	* washington.csv
+	
+### Software
+	
+	* Python 3
+	* PyCharm
+	* Anaconda: Pandas and NumPy
+	* Git
 
 ### Credits
 	*[Code Academy] https://www.codecademy.com/learn/paths/analyze-data-with-python
