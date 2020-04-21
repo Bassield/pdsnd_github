@@ -52,8 +52,8 @@
 	* washington.csv
 
 ### Credits
-*[Code Academy] https://www.codecademy.com/learn/paths/analyze-data-with-python
-*[Free Code Camp] https://guide.freecodecamp.org/python/how-to-convert-strings-into-integers-in-python/
-*[Python Docs] https://docs.python.org/3/tutorial/datastructures.html
-*[Tutorials Point] https://www.tutorialspoint.com/python3/python_dictionary.htm
+	*[Code Academy] https://www.codecademy.com/learn/paths/analyze-data-with-python
+	*[Free Code Camp] https://guide.freecodecamp.org/python/how-to-convert-strings-into-integers-in-python/
+	*[Python Docs] https://docs.python.org/3/tutorial/datastructures.html
+	*[Tutorials Point] https://www.tutorialspoint.com/python3/python_dictionary.htm
 
