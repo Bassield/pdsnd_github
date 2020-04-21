@@ -38,13 +38,7 @@ def get_filters():
 
     # get user input for month (all, january, february, ... , june)
     print('Please enter a number for the Month you would like to explore')
-    print('January - 1')
-    print('February - 2')
-    print('March - 3')
-    print('April - 4')
-    print('May - 5')
-    print('June - 6')
-    print('All - 0')
+    print("January - 1 \nFebruary - 2 \nMarch - 3 \nApril - 4 \nMay - 5 \nJune - 6 \nAll - 0")
     inputMonth = -1
     monthsDictionary = {1: 'january', 2: 'february', 3: 'march',  4: 'april', 5: 'may', 6: 'june', 0: 'all'}
     while inputMonth not in monthsDic.keys():
@@ -55,14 +49,7 @@ def get_filters():
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     print('Please enter a number for the Day you would like to explore')
-    print('Sunday - 1')
-    print('Monday - 2')
-    print('Tuesday - 3')
-    print('Wednesday - 4')
-    print('Thursday - 5')
-    print('Friday - 6')
-    print('Saturday - 7')
-    print('All - 0')
+    print("Sunday - 1 \nMonday - 2 \nTuesday - 3 \nWednesday - 4 \nThursday - 5 \nFriday - 6 \nSaturday - 7 \nAll - 0")
     inputDay = -1
     dayDictionary = {1: 'sunday', 2: 'monday', 3: 'tuesday', 4: 'wednesday', 5: 'thursday', 6: 'friday', 7: 'saturday', 0: 'all'}
     while inputDay not in dayDictionary.keys():
