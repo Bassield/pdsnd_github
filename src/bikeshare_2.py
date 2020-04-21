@@ -45,13 +45,13 @@ def get_filters():
     print('May - 5')
     print('June - 6')
     print('All - 0')
-    input_month = -1
-    month_dict = {1: 'january', 2: 'february', 3: 'march',  4: 'april', 5: 'may', 6: 'june', 0: 'all'}
-    while input_month not in month_dict.keys():
-        input_month = eval(input("Please enter the month value for data required: "))
-        if input_month not in month_dict.keys():
+    inputMonth = -1
+    monthsDictionary = {1: 'january', 2: 'february', 3: 'march',  4: 'april', 5: 'may', 6: 'june', 0: 'all'}
+    while inputMonth not in monthsDic.keys():
+        inputMonth = eval(input("Please enter the month value for data required: "))
+        if inputMonth not in monthsDic.keys():
             print('That was a invalid entry, please try again\n')
-    month = month_dict[input_month]
+    month = monthsDic[inputMonth]
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     print('Please enter a number for the Day you would like to explore')
@@ -63,13 +63,13 @@ def get_filters():
     print('Friday - 6')
     print('Saturday - 7')
     print('All - 0')
-    input_day = -1
-    day_dict = {1: 'sunday', 2: 'monday', 3: 'tuesday', 4: 'wednesday', 5: 'thursday', 6: 'friday', 7: 'saturday', 0: 'all'}
-    while input_day not in day_dict.keys():
-        input_day = eval(input("Please enter the day value for data required: "))
-        if input_day not in day_dict.keys():
+    inputDay = -1
+    dayDictionary = {1: 'sunday', 2: 'monday', 3: 'tuesday', 4: 'wednesday', 5: 'thursday', 6: 'friday', 7: 'saturday', 0: 'all'}
+    while inputDay not in dayDictionary.keys():
+        inputDay = eval(input("Please enter the day value for data required: "))
+        if inputDay not in dayDictionary.keys():
             print('That was a invalid entry, please try again: \n')
-    day = day_dict[input_day]
+    day = dayDictionary[inputDay]
 
     print('-'*40)
     return city, month, day
